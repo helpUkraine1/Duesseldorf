@@ -1,0 +1,42 @@
+body {
+    background-image: url(./international-g65e3c0864_1920.jpg);
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.background {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.452);
+}
+h2 {
+    color: red;
+}
+
+.telegramImg {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .image {
+      max-width: 200px;
+    }
+  }
+
+  @media only screen and (min-width: 601px) {
+    .image {
+      max-width: 400px;
+    }
+  }
